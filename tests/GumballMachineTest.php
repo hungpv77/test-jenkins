@@ -19,6 +19,6 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
 		$this->gumballMachineInstance->turnWheel();
 
 		// ... We should now have 99 gumballs remaining in the machine right?
-		$this->assertEquals(94, $this->gumballMachineInstance->getGumballs() -5);
+		$this->assertEquals(93, $this->gumballMachineInstance->getGumballs() -6);
 	}
 }
